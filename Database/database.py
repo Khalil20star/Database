@@ -6,7 +6,7 @@ def connect():
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Ka@787898",
+            password="*******",
             database="library_system"
         )
         if connection.is_connected():
